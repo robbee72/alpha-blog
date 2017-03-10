@@ -20,3 +20,44 @@ $navbar-default-bg: #ff6d2e;
 .center {
 	text-align: center;
 }
+
+.jumbotron {
+	background-image: asset-url("bluesky.jpg");	
+	background-size: cover;
+	height: 500px;
+}
+.jumbotron h1 {
+	color: darkred;
+	text-align: center;
+	font-weight: bolder;
+	
+}
+.footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: #777;
+}
+
+.footer a:hoover {
+	color: #222;
+}
+
+.footer small {
+	float: left;
+}
+
+.footer ul {
+	float: right;
+	list-style: none;
+}
+
+.footer ul li {
+	float: left;
+	margin-left: 20px;
+}
+
+
+
+
+
