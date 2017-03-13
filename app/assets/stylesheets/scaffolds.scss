@@ -1,5 +1,5 @@
 body {
-  background-color: #9ab8d2;
+  background-color: #2576bc;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
@@ -67,7 +67,7 @@ div {
   margin-bottom: 20px;
   background-color: #f0f0f0;
 
-  h2 {
+  h2, h3, h4, h5 {
     text-align: left;
     font-weight: bold;
     padding: 5px 5px 5px 15px;
@@ -75,7 +75,7 @@ div {
     margin: -7px;
     margin-bottom: 0;
     background-color: #c00;
-    color: #fff;
+    color: white;
   }
 
   ul li {

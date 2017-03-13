@@ -18,6 +18,7 @@ $navbar-default-bg: #ff6d2e;
 	color: #fff;
 	text-decoration: none;
 }
+
 .center {
 	text-align: center;
 }
@@ -60,6 +61,11 @@ $navbar-default-bg: #ff6d2e;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+.listing {
+	list-style: none;
+	padding-left: 0;
+}
+
 .footer {
 	margin-top: 45px;
 	padding-top: 5px;
