@@ -11,11 +11,11 @@ $navbar-default-bg: #ff6d2e;
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: -1px;
-	font-weight: bolder;
+	font-weight: bold;
 }
 
 #logo:hover {
-	color: crimson;
+	color: #fff;
 	text-decoration: none;
 }
 .center {
@@ -30,7 +30,14 @@ $navbar-default-bg: #ff6d2e;
 .jumbotron h1 {
 	color: darkred;
 	text-align: center;
-	font-weight: bolder;
+	margin-bottom: 30px;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.btn-xlarge {
+	font-size: 1.7em;
+	background-color: black;
 }
 .article-meta-details {
 	border-top: 1px solid #eaeaea;
@@ -60,6 +67,9 @@ $navbar-default-bg: #ff6d2e;
 	color: #777;
 }
 
+.btn.btn-xs {
+	color: white;
+}
 .footer a:hoover {
 	color: #222;
 }
