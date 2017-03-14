@@ -1,5 +1,5 @@
 <h2 align="center"> Log in</h2>
-		<%= form_for(:sessions, :html => {class: "form-horizontal", role: "form"}, url: login_path) do |w| %>
+		<%= form_for(:session, :html => {class: "form-horizontal", role: "form"}, url: login_path) do |w| %>
 					<div class="form-group">
 						<div class="control-label col-sm-2">
 							<%= w.label :email %>
@@ -18,7 +18,7 @@
 					</div>
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-10">
-							<%= w.submit "Log in", class: 'btn btn-primary' %>
+							<%= w.submit "Log in", class: 'btn btn-primary btn-lg' %>
 						</div>
 					</div>
 					<% end %>
