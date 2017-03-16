@@ -1,4 +1,4 @@
-$navbar-default-bg: #D94004;
+$navbar-default-bg: black;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -16,11 +16,11 @@ $navbar-default-bg: #D94004;
 
 #logo:hover {
 	color: darkcyan;
-	background-color: #D94004;
+	background-color: black;
 }
 .navbar-collapse  {
 	color: black;
-	background-color: #D94004;
+	background-color: black;
 }
 
 .dropdown-menu {
