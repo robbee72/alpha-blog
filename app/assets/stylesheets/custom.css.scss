@@ -18,6 +18,15 @@ $navbar-default-bg: #D94004;
 	color: darkcyan;
 	background-color: #D94004;
 }
+.navbar-collapse  {
+	color: black;
+	background-color: #D94004;
+}
+
+.dropdown-menu {
+	float: right;
+	
+}
 
 .center {
 	text-align: center;
@@ -95,6 +104,17 @@ $navbar-default-bg: #D94004;
 	color: brown;
 	float: left;
 	margin-left: 20px;
+}
+
+.badge {
+background-color: #CEF6F5;
+text-transform: uppercase;
+letter-spacing: -1px;
+font-weight: bold;
+}
+
+.input_checkbox input {
+width: auto !important;
 }
 
 
